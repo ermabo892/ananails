@@ -18,7 +18,7 @@ body{
 /* header */
 .header{
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     margin-bottom: 24px;
     align-items: center;
 }
@@ -35,7 +35,7 @@ body{
 
 /* banner */
 .banner{
-    background-image: url(/images/banner.png);
+    background-image: url(images/banner.png);
     height: 505px;
     padding-top: 80px;
     text-align: center;
