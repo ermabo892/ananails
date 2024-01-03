@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+body{
+    min-width: 430px;
+    padding: 24px 24px;
+}
+
+/* header */
+.header{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-bottom: 24px;
+    align-items: center;
+}
+
+/* header i{
+    visibility: visible;
+    display: inline !important;
+} */
+
+.menu-desktop{
+    display: none;
+}
+
+
+/* banner */
+.banner{
+    background-image: url(/images/banner.png);
+    height: 505px;
+    padding-top: 80px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: round;
+}
+
+.banner p{
+    padding: 0 24px;
+    margin-bottom: 80px;
+    font-size: 20px;
+}
+
+/* .banner button{
+    color: red;
+    width: 180px;
+    height: 50px;
+    font-size: 24px;
+    color: #E51037;
+    font-weight: bold;    
+} */
+
+/* experiencia */
+.experiencia-mainContainer{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
+    margin-bottom: 40px;
+}
+
+.experiencias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.experiencias p{
+    text-align: center;
+    font-weight: 300;
+    width: 238px;
+}
+
+/* testimonios */
+
+.testimonio-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    
+}
+
+.testimonio-container img{
+    background-color: #E51037;
+    width: 106.977px;
+    height: 97px;
+    border-radius: 50%;
+}
+
+.testimonios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 40px 0;
+}
+
+.testimonios p{
+    padding: 0 40px;
+}
+
+.testimonio-1{
+    background-color: #e5103798;
+}
+
+.testimonio-2{
+    background-color: #3b10e598;
+}
+
+.testimonio-3{
+    background-color: #10e54598;
+}
+
+footer{
+    /* background-color: #f803f8; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media only screen and (min-width: 1080px){
+
+    /* body{
+        min-width: 1080px;
+        padding: 40px 40px;
+    } */
+
+    .menu-desktop{
+        display:flex;
+        gap: 40px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    button{
+        height: 46px;
+        width: 400px;
+        background-color: black;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+    }
+
+    .logo{
+        height: 70px;
+        width: 137px;
+    }
+
+    .banner{
+        background-repeat: repeat;
+    }
+
+    .experiencia-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 80px;
+    }
+
+    .experiencia-container img{
+        width: 368px;
+        height: 600px;
+    }
+
+    .testimonio-container{
+        /* text-align: center; */
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 40px;
+        
+    }
+
+    .testimonios{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 24px;
+        padding: 40px 0;
+        max-width: 900px;
+        height: 500px;
+        border-radius: 20%;
+    }
+
+    .testimonio-1{
+        align-self: flex-start;
+    }
+    
+    .testimonio-2{
+        align-self: center;
+    }
+    
+    .testimonio-3{
+        align-self: flex-end;
+    }
+
+    body{
+        font-weight: 400;
+        font-size: 24px;
+        font-family: 'Montserrat', sans-serif;
+        padding: 24px 160px;
+    }
+
+    .header{
+        justify-content: space-between;
+        margin-bottom: 24px;
+        align-items: center;
+    }
+
+    header li{
+        justify-self: flex-start;
+    }
+
+    header a{
+        justify-self: center;
+    }
+
+    header button{
+        justify-self: flex-end;
+    }
+
+    /* p{
+        font-family: 'Montserrat', sans-serif;
+    } */
+    
+}
