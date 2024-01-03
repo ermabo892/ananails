@@ -34,10 +34,14 @@ a:hover{
 }
 
 /* header */
+
+
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* width: 100%; */
+    /* position: fixed; */
 }
 
 .menu-desktop{
@@ -73,6 +77,8 @@ a:hover{
     align-items: center;
     gap: 72px;
     margin-bottom: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .experiencias{
@@ -152,6 +158,16 @@ footer{
     gap: 160px;
     /* padding: 80px; */
 }
+/* 
+button{
+    height: 46px;
+    width: 400px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+} */
 
 @media only screen and (min-width: 1080px){
 
@@ -168,7 +184,7 @@ footer{
         height: 46px;
         width: 400px;
         background-color: black;
-        color: white;
+        color : white;
         justify-content: center;
         align-items: center;
         font-size: 24px;
@@ -238,6 +254,9 @@ footer{
         margin-bottom: 24px;
         align-items: center;
         color: white;
+        /* width: 85%;
+        position: fixed; */
+
     }
 
     header li{
@@ -245,7 +264,7 @@ footer{
 
     }
 
-    header a{
+    header li ul a{
         justify-self: center;
         color: black;
     }
@@ -253,5 +272,10 @@ footer{
     header button{
         justify-self: flex-end;
     }
+
+    .experiencia-mainContainer{
+        margin-left: 80px;
+        margin-right: 80px;
     
+    }
 }
