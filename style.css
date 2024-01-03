@@ -237,22 +237,21 @@ footer{
         justify-content: space-between;
         margin-bottom: 24px;
         align-items: center;
+        color: white;
     }
 
     header li{
         justify-self: flex-start;
+
     }
 
     header a{
         justify-self: center;
+        color: black;
     }
 
     header button{
         justify-self: flex-end;
     }
-
-    /* p{
-        font-family: 'Montserrat', sans-serif;
-    } */
     
 }
