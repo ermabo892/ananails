@@ -40,8 +40,7 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 100%; */
-    /* position: fixed; */
+
 }
 
 .menu-desktop{
@@ -137,7 +136,6 @@ a:hover{
 
 .testimonio-1{
     background-color: #e5103798;
-    /* margin-bottom: 500px; */
 }
 
 .testimonio-2{
@@ -154,22 +152,11 @@ span{
 
 footer{
     display: flex;
-    /* justify-content: space-evenly; */
     align-items: center;
     justify-content: center;
-    gap: 160px;
-    /* padding: 80px; */
+    gap: 80px;
+
 }
-/* 
-button{
-    height: 46px;
-    width: 400px;
-    background-color: black;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-} */
 
 @media only screen and (min-width: 1080px){
 
@@ -214,7 +201,6 @@ button{
     }
 
     .testimonio-container{
-        /* text-align: center; */
         display: flex;
         flex-direction: column;
         padding-bottom: 40px;
@@ -256,8 +242,7 @@ button{
         margin-bottom: 24px;
         align-items: center;
         color: white;
-        /* width: 85%;
-        position: fixed; */
+
 
     }
 
